@@ -1,6 +1,6 @@
 {
   "name": "dsh-diff-review",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "private": true,
   "description": "DSH 文件变更审阅：agent 每改一个文件就列进清单，点击看完整逐行差异，顶部提供「保留 / 撤销」，可在差异块之间跳转、调字号并全屏阅读。",
   "keywords": [
