@@ -1,0 +1,12 @@
+# dsh-diff-review 的挂载声明。
+#
+# 安装方式（二选一，不要手工改 profile 的 patch 文件）：
+#   dsh plugin --profile desktop add <本目录绝对路径>
+#   dsh plugin --profile desktop add link:<本目录绝对路径>
+#
+# 本文件只把插件插进 Loader 树；客户端半（lib/client.js）由包声明的
+# dsh.client.platform=web 自动被 ClientModuleRegistry 收进启动图，无需在此声明。
+- insert:
+    - id: dsh-diff-review
+      name: dsh-diff-review
+      config: {}
